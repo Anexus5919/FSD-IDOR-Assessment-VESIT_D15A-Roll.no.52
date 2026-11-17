@@ -1,0 +1,14 @@
+node_modules/
+
+# Secrets and local data
+server/.env
+server/data/
+
+# Report source and build files stay local
+report/
+
+# Original screenshots that show raw JWTs (the *_redacted.png copies are committed instead)
+evidence/03_devtools_user_a_part2.png
+evidence/04_devtools_user_b_part2.png
+
+desktop.ini
